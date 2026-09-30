@@ -1,10 +1,10 @@
-# ⚖️ LawBuddy AI — GenAI Legal Access & Case Preparation Platform
+# LawBuddy AI — GenAI Legal Access & Case Preparation Platform
 
 > **AI-Powered Plain-Language Legal Document Simplification, Precision Legal Translation, Evidence Mapping, and Advocate Consultation Preparation.**
 
 ---
 
-## 🌟 Overview
+## Overview
 
 **LawBuddy AI** is an advanced Multi Langauge AI legal assistance platform designed for Indian citizens, tenants, employees, consumers, and advocates. Legal agreements and notices in India are often filled with intimidating legalese, complex obligations, and ambiguous deadlines. 
 
@@ -12,9 +12,9 @@ LawBuddy AI bridges this gap by transforming dense legal documents (Rental Agree
 
 ---
 
-## 🚀 Key Features & Capabilities
+## Key Features & Capabilities
 
-### 1. 🌐 Precision Multilingual & Kannada Legal Engine
+### 1. Precision Multilingual & Kannada Legal Engine
 - **Authentic  Translation**: Generates summaries, explanations, risk alerts, and next steps in fluent, grammatically accurate language script.
 - **SOV Sentence Structure**: Enforces Subject-Object-Verb (SOV) Kannada grammar order to ensure translations sound natural to native Kannada speakers rather than literal machine-translated English (SVO).
 - **Standard Legal Terminology 
@@ -22,36 +22,36 @@ LawBuddy AI bridges this gap by transforming dense legal documents (Rental Agree
 - **Multilingual Support**: Fully supports 9 Indian languages including Kannada (ಕನ್ನಡ), Hindi (हिंदी), Malayalam (മലയാളം), Telugu (తెలుగు), Marathi (मराठी), Bengali (বাংলা), Gujarati (ગુજરાતી), Tamil (தமிழ்), and English.
 - **Rule-Based Kannada Fallback**: Generates complete Kannada translation fallbacks when LLM APIs are offline or rate-limited.
 
-### 2. 🔒 Enterprise Security & Privacy
+### 2.  Enterprise Security & Privacy
 - **HTTP Security Headers**: Enforces `Content-Security-Policy`, `X-Content-Type-Options: nosniff`, `X-Frame-Options: DENY`, `Strict-Transport-Security`, `X-XSS-Protection`, and `Referrer-Policy`.
 - **API Rate Limiting**: Thread-safe in-memory IP rate limiter (`MAX_REQUESTS_PER_MINUTE = 100`) preventing API abuse and quota exhaustion.
 - **Path Traversal Protection**: Filename sanitization preserves Unicode characters while stripping path traversal tokens (`..`, `/`, `\`).
 - **SSRF Protection**: Strict URL validation blocking requests to internal, private, or loopback IP ranges (`127.0.0.1`, `10.0.0.0/8`, `169.254.x.x`).
 - **Automated 3-Hour Privacy Purger**: Background thread automatically purges uploaded files and session memory after 3 hours.
 
-### 3. ⚡ High-Efficiency RAG & Retrieval Engine
+### 3.  High-Efficiency RAG & Retrieval Engine
 - **TF-IDF & Cosine Similarity**: Semantic text chunking with TF-IDF retrieval for fast, grounded Q&A.
 - **Optimized Module Imports**: High-performance top-level vectorizer initialization eliminating cold-start latency.
 - **Smart Session Caching**: Reuses document analysis data across evidence mapping and brief generation to minimize API calls.
 
-### 4. 📋 Evidence-to-Clause Mapping Matrix
+### 4.  Evidence-to-Clause Mapping Matrix
 - Automatically links contract clauses and financial terms with required evidence categories (e.g., Bank UPI receipts, notice delivery acknowledgements, signed agreement copies).
 - Supports neutral status tracking: *Evidence found*, *Evidence missing*, *Evidence suggested*, *Requires verification*.
 
-### 5. 🧑‍⚖️ Lawyer Consultation Brief Export
+### 5.  Lawyer Consultation Brief Export
 - One-click HTML export generating an official, printable/PDF advocate consultation brief.
 - Formats executive summaries, clause risk flags, financial timelines, custom user notes, lawyer questions, and evidence checklists.
 
-### 6. 💡 Zero-Jargon Legal Explainer
+### 6.  Zero-Jargon Legal Explainer
 - Interactive explainer for complex legal concepts (Indemnification, Jurisdiction, Security Deposit, Lock-in Period, Notice Period, Arbitration, Non-compete under Section 27 of Indian Contract Act).
 
-### 7. ♿ Accessibility & Typography
+### 7.  Accessibility & Typography
 - Loaded Google Font `Noto Sans Kannada` alongside `Inter` in HTML and CSS for crisp, legible rendering of Kannada script across all browsers.
 - Dynamic `document.documentElement.lang` attribute toggling and ARIA screen reader attributes (`aria-live`, `aria-label`).
 
 ---
 
-## ⚙️ Local Installation & Setup
+##  Local Installation & Setup
 
 ### Prerequisites
 - Python 3.9 or higher
